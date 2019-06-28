@@ -12,6 +12,7 @@
 		0ACA5ECD2155562400886241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACA5ECB2155562400886241 /* Main.storyboard */; };
 		0ACA5ECF2155562400886241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACA5ECE2155562400886241 /* Assets.xcassets */; };
 		0ACA5ED22155562400886241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACA5ED02155562400886241 /* LaunchScreen.storyboard */; };
+		0ACA5EDC2155B17300886241 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0ACA5EDB2155B17300886241 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0ACA5ECE2155562400886241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ACA5ED12155562400886241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ACA5ED32155562400886241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ACA5EDB2155B17300886241 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		0ACA5EBB2155562400886241 = {
 			isa = PBXGroup;
 			children = (
+				0ACA5EDB2155B17300886241 /* Settings.bundle */,
 				0ACA5EC62155562400886241 /* StreamingSampleApp */,
 				0ACA5EC52155562400886241 /* Products */,
 			);
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACA5EDC2155B17300886241 /* Settings.bundle in Resources */,
 				0ACA5ED22155562400886241 /* LaunchScreen.storyboard in Resources */,
 				0ACA5ECF2155562400886241 /* Assets.xcassets in Resources */,
 				0ACA5ECD2155562400886241 /* Main.storyboard in Resources */,
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KA6952ZY8;
 				INFOPLIST_FILE = StreamingSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.umusic.StreamingSampleApp;
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KA6952ZY8;
 				INFOPLIST_FILE = StreamingSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.umusic.StreamingSampleApp;
